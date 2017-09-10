@@ -1,0 +1,19 @@
+{
+  "name": "artur",
+  "version": "1.0.0",
+  "description": "A simple crawler",
+  "main": "crawler.js",
+  "scripts": {
+    "start": "node crawler",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Artur Sak",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.5.0",
+    "cheerio": "^1.0.0-rc.2",
+    "lodash": "^4.17.4",
+    "mocha": "^3.5.0",
+    "redis": "^2.8.0"
+  }
+}
